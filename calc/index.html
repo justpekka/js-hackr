@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="./style.css" type="text/css">
+  </head>
+
+  <body>
+    <table class="calc-body">
+      <thead class="calc-section">
+        <th class="calc-viewer" colspan="4">
+          <span class="formula" id="formula">12</span>
+          <span class="result" id="result">0</span>
+        </th>
+      </thead>
+      <tbody class="calc-section">
+        <tr class="calc-buttons">
+          <td id="AC" class="operator">AC</td>
+          <td id="delete" class="operator">Del</td>
+          <td id="%" class="operator">%</td>
+          <td id="/" class="operator">/</td>
+          <!-- <td id="/">÷</td> -->
+        </tr>
+        <tr class="calc-buttons">
+          <td id="7">7</td>
+          <td id="8">8</td>
+          <td id="9">9</td>
+          <td id="*" class="operator">x</td>
+        </tr>
+        <tr class="calc-buttons">
+          <td id="4">4</td>
+          <td id="5">5</td>
+          <td id="6">6</td>
+          <td id="-" class="operator">-</td>
+        </tr>
+        <tr class="calc-buttons">
+          <td id="1">1</td>
+          <td id="2">2</td>
+          <td id="3">3</td>
+          <td id="+" class="operator">+</td>
+        </tr>
+        <tr class="calc-buttons">
+          <td id="0" class="colspan">0</td>
+          <td id=".">.</td>
+          <td id="=" class="result">=</td>
+        </tr>
+      </tbody>
+    </table>
+
+
+    <script src="./script.js"></script>
+  </body>
+
+</html>
