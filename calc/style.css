@@ -24,18 +24,19 @@ body {
   border-radius: .5em;
   background: #3F3735;
   border-spacing: 0;
-  overflow: hidden;
-  position: relative;
+  
   padding: .25em;
+  max-width: 10em;
 }
 
 .calc-section {
-  width: 100%;
   position: relative;
+  width: 100%;
   overflow: hidden;
 }
 
 .calc-viewer {
+  transition: 0.2s font-size ease-in-out;
   display: flex;
   flex-wrap: wrap;
 
