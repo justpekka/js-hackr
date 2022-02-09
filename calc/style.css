@@ -36,7 +36,7 @@ body {
 }
 
 .calc-viewer {
-  transition: 0.2s font-size ease-in-out;
+  transition: 0.3s all ease-in-out;
   display: flex;
   flex-wrap: wrap;
 

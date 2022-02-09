@@ -19,8 +19,8 @@
       </thead>
       <tbody class="calc-section">
         <tr class="calc-buttons">
-          <td onclick="clear()" id="AC" class="operator">AC</td>
-          <td onclick="del()" id="delete" class="operator">Del</td>
+          <td onclick="clr()" class="operator">AC</td>
+          <td onclick="del()" class="operator">Del</td>
           <td onclick="operator(this.id)" id="%" class="operator">%</td>
           <td onclick="operator(this.id)" id="/" class="operator">/</td>
           <!-- <td id="/">÷</td> -->
@@ -29,7 +29,7 @@
           <td onclick="display(this.id)" id="7">7</td>
           <td onclick="display(this.id)" id="8">8</td>
           <td onclick="display(this.id)" id="9">9</td>
-          <td onclick="display(this.id)" id="*" class="operator">x</td>
+          <td onclick="operator(this.id)" id="*" class="operator">x</td>
         </tr>
         <tr class="calc-buttons">
           <td onclick="display(this.id)" id="4">4</td>
