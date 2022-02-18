@@ -5,3 +5,4 @@
 # What makes your project stand out?
 
 https://www.makeareadme.com/
+https://hackr.io/blog/javascript-projects
